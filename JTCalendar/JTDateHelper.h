@@ -9,7 +9,7 @@
 
 @interface JTDateHelper : NSObject
 
-- (NSCalendar *)calendar;
+@property(nonnull, strong, nonatomic) NSCalendar *calendar;
 - (NSDateFormatter *)createDateFormatter;
 
 - (NSDate *)addToDate:(NSDate *)date months:(NSInteger)months;

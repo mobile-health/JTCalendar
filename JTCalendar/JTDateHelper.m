@@ -7,9 +7,7 @@
 
 #import "JTDateHelper.h"
 
-@interface JTDateHelper (){
-    NSCalendar *_calendar;
-}
+@interface JTDateHelper ()
 
 @end
 
